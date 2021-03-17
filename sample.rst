@@ -11,7 +11,7 @@ Table of Contents
 
 #. `Titles`_
 #. `Links`_
-#. Bulleted lists
+#. `Bulleted lists`_
 #. Adding screenshots
 #. Text formatting (bold, italics, code blocks)
 
@@ -86,3 +86,42 @@ Example linking to this repository's README::
 Now parsed:
 
 For information on the purpose of this repository, take a look at the `README <README.rst>`_.
+
+|
+
+Bulleted lists
+--------------
+
+Lists in rST can be bulleted, start with numbers, and be nested.
+
+Example syntax showing both bullets and numbered lists::
+
+    List of webservers
+
+    * Apache
+    * NGINX
+    * Tomcat
+
+    -----------------
+
+    Procedure
+
+    #. Start here
+    #. Now do this
+    #. Finally, do...
+
+The above, parsed:
+
+List of webservers
+
+* Apache
+* NGINX
+* Tomcat
+
+-----------------
+
+Procedure
+
+#. Start here
+#. Now do this
+#. Finally, do...
