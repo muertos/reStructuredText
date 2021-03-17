@@ -75,3 +75,14 @@ Example syntax::
 Here's how the above syntax would appear after being parsed:
 
 Find out more about InMotion's `Private Cloud <https://www.inmotionhosting.com/cloud/private/hosted>`_ in the Support Center.
+
+Create an internal link
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Example linking to this repository's README::
+
+    For information on the purpose of this repository, take a look at the `README <README.rst>`_.
+
+Now parsed:
+
+For information on the purpose of this repository, take a look at the `README <README.rst>`_.
