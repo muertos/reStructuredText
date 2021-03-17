@@ -12,8 +12,8 @@ Table of Contents
 #. `Titles`_
 #. `Links`_
 #. `Bulleted lists`_
-#. Adding screenshots
-#. Text formatting (bold, italics, code blocks)
+#. `Adding screenshots`_
+#. `Text formatting`_
 
 ---------------------
 
@@ -125,3 +125,56 @@ Procedure
 #. Start here
 #. Now do this
 #. Finally, do...
+
+|
+
+Adding screenshots
+------------------
+
+You will need to make use of an rST `directive <https://docutils.sourceforge.io/docs/ref/rst/directives.html>`_ to include screenshots.
+
+To add screenshots, make use of the ``image`` directive::
+
+    .. image:: images/screenshot_1.png
+
+The above, now parsed:
+
+.. image:: images/screenshot_1.png
+
+|
+
+Text formatting
+---------------
+
+A variety of text formatting features are available:
+
+* **Bold**
+* *Italics*
+* ``inline code``
+
+Here's the rST for the above::
+
+    * **Bold**
+    * *Italics*
+    * ``inline code``
+
+Take note of each symbol used to create the desired effect.
+
+Code blocks
+~~~~~~~~~~~
+
+Code blocks can be created by starting a line with, ``::``, inserting a blank
+line after the colons, then indent and insert the code block text. The indent
+must remain consistent.
+
+Example using rST::
+
+    Echo text using bash::
+
+        $ echo 'Hello World!'
+
+The above parsed:
+
+Echo text using bash::
+
+    $ echo 'Hello World!'
