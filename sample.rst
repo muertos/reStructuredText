@@ -10,7 +10,7 @@ Table of Contents
 -----------------
 
 #. `Titles`_
-#. Links
+#. `Links`_
 #. Bulleted lists
 #. Adding screenshots
 #. Text formatting (bold, italics, code blocks)
@@ -51,3 +51,27 @@ Subtitle
 
 For example, this is a subtitle of the "Titles" section and uses the ``~``
 symbol to create the subtitle.
+
+---------------------
+
+|
+
+Links
+-----
+
+External and internal linking is supported.
+
+Create an external link
+~~~~~~~~~~~~~~~~~~~~~~~
+
+To create an external link, use the form::
+
+    `Link name <hyperlink target>`_
+
+Example syntax::
+
+    Find out more about InMotion's `Private Cloud <https://www.inmotionhosting.com/cloud/private/hosted>`_ in InMotion's Support Center.
+
+Here's how the above syntax would appear after being parsed:
+
+Find out more about InMotion's `Private Cloud <https://www.inmotionhosting.com/cloud/private/hosted>`_ in InMotion's Support Center.
