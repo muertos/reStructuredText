@@ -9,7 +9,7 @@ the source of this page to understand how the elements are formatted.
 Table of Contents
 -----------------
 
-#. Titles
+#. `Titles`_
 #. Links
 #. Bulleted lists
 #. Adding screenshots
