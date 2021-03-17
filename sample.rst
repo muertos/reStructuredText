@@ -163,7 +163,7 @@ Take note of each symbol used to create the desired effect.
 Code blocks
 ~~~~~~~~~~~
 
-Code blocks can be created by starting a line with, ``::``, inserting a blank
+Code blocks can be created by ending a line with, ``::``, inserting a blank
 line after the colons, then indent and insert the code block text. The indent
 must remain consistent.
 
