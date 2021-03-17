@@ -33,6 +33,8 @@ For example::
 I recommend ensuring the length of the line under the title matches the length
 of the title.
 
+|
+
 You can use a number of symbols to create a title::
 
     =================
@@ -45,6 +47,8 @@ You can use a number of symbols to create a title::
 
 The first symbol used as a title will have the largest font. All title symbols
 used after will be slightly smaller than the largest one.
+
+|
 
 Subtitle
 ~~~~~~~~
@@ -72,9 +76,13 @@ Example syntax::
 
     Find out more about InMotion's `Private Cloud <https://www.inmotionhosting.com/cloud/private/hosted>`_ in the Support Center.
 
+|
+
 Here's how the above syntax would appear after being parsed:
 
 Find out more about InMotion's `Private Cloud <https://www.inmotionhosting.com/cloud/private/hosted>`_ in the Support Center.
+
+|
 
 Create an internal link
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -110,6 +118,8 @@ Example syntax showing both bullets and numbered lists::
     #. Now do this
     #. Finally, do...
 
+|
+
 The above, parsed:
 
 List of webservers
@@ -133,9 +143,11 @@ Adding screenshots
 
 You will need to make use of an rST `directive <https://docutils.sourceforge.io/docs/ref/rst/directives.html>`_ to include screenshots.
 
-To add screenshots, make use of the ``image`` directive::
+To add screenshots, use the ``image`` directive::
 
     .. image:: images/screenshot_1.png
+
+|
 
 The above, now parsed:
 
@@ -152,6 +164,8 @@ A variety of text formatting features are available:
 * *Italics*
 * ``inline code``
 
+|
+
 Here's the rST for the above::
 
     * **Bold**
@@ -159,6 +173,8 @@ Here's the rST for the above::
     * ``inline code``
 
 Take note of each symbol used to create the desired effect.
+
+|
 
 Code blocks
 ~~~~~~~~~~~
@@ -173,8 +189,39 @@ Example using rST::
 
         $ echo 'Hello World!'
 
+|
+
 The above parsed:
 
 Echo text using bash::
 
     $ echo 'Hello World!'
+
+Page and line breaks
+~~~~~~~~~~~~~~~~~~~~
+
+To create a horizontal line, include a series of dashes (``-``) all on one
+line::
+
+    ---------------------
+
+Example line break:
+
+---------------------
+
+To add whitespace in between text or items create a new line with the ``|``
+symbol.
+
+Example:
+
+Text
+
+|
+
+More text
+
+|
+
+The end.
+
+---------------------
