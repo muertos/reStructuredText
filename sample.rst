@@ -70,8 +70,8 @@ To create an external link, use the form::
 
 Example syntax::
 
-    Find out more about InMotion's `Private Cloud <https://www.inmotionhosting.com/cloud/private/hosted>`_ in InMotion's Support Center.
+    Find out more about InMotion's `Private Cloud <https://www.inmotionhosting.com/cloud/private/hosted>`_ in the Support Center.
 
 Here's how the above syntax would appear after being parsed:
 
-Find out more about InMotion's `Private Cloud <https://www.inmotionhosting.com/cloud/private/hosted>`_ in InMotion's Support Center.
+Find out more about InMotion's `Private Cloud <https://www.inmotionhosting.com/cloud/private/hosted>`_ in the Support Center.
