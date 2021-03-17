@@ -1,3 +1,5 @@
+.. _sample.rst:
+
 ===============
 Sample rST Page
 ===============
