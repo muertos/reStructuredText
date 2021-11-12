@@ -9,6 +9,7 @@ Table of Contents
 -----------------
 
 #. `How to do Thing`_
+   #. `Learn more about Thing`_
 
 How to do Thing
 ---------------
