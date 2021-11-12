@@ -5,6 +5,11 @@ Title
 Introduction
 ------------
 
+Table of Contents
+-----------------
+
+#. `How to do Thing`_
+
 How to do Thing
 ---------------
 
