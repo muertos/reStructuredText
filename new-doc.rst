@@ -16,6 +16,8 @@ Table of Contents
 How to do Thing
 ---------------
 
+.. image:: images/test-img.png
+
 Learn more about Thing
 ~~~~~~~~~~~~~~~~~~~~~~
 

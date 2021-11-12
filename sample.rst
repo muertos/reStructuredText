@@ -43,9 +43,9 @@ You can use a number of symbols to create a title::
 
     -----------------
 
-    +++++++++++++++++
-
     ~~~~~~~~~~~~~~~~~
+
+    +++++++++++++++++
 
 The first symbol used as a title will have the largest font. All title symbols
 used after will be slightly smaller than the largest one.
